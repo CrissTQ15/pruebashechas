@@ -1,0 +1,10 @@
+digraph G {
+rankdir=LR;
+node [shape = record];
+node0 [label="Matriz: primera | Filas: 3 | Columnas: 3"];
+node1 [label="Matriz: segunda | Filas: 3 | Columnas: 4"];
+node2 [label="Matriz: tercera | Filas: 5 | Columnas: 4"];
+node0 -> node1;
+node1 -> node2;
+node2 -> node3;
+}

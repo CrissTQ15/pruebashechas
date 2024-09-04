@@ -1,0 +1,86 @@
+// Matrices
+digraph {
+	subgraph cluster_primera {
+		label=primera
+		color=lightgrey style=filled
+		primera_1_1 [label="(1,1): 3" shape=box]
+		primera_1_2 [label="(1,2): 4" shape=box]
+		primera_1_3 [label="(1,3): 0" shape=box]
+		primera_2_1 [label="(2,1): 0" shape=box]
+		primera_2_2 [label="(2,2): 0" shape=box]
+		primera_2_3 [label="(2,3): 8" shape=box]
+		primera_3_1 [label="(3,1): 6" shape=box]
+		primera_3_2 [label="(3,2): 4" shape=box]
+		primera_3_3 [label="(3,3): 0" shape=box]
+		primera_1_1 -> primera_1_2
+		primera_1_2 -> primera_1_3
+		primera_2_1 -> primera_2_2
+		primera_2_2 -> primera_2_3
+		primera_3_1 -> primera_3_2
+		primera_3_2 -> primera_3_3
+	}
+	subgraph cluster_segunda {
+		label=segunda
+		color=lightgrey style=filled
+		segunda_1_1 [label="(1,1): 5" shape=box]
+		segunda_1_2 [label="(1,2): 7" shape=box]
+		segunda_1_3 [label="(1,3): 0" shape=box]
+		segunda_1_4 [label="(1,4): 1" shape=box]
+		segunda_2_1 [label="(2,1): 2" shape=box]
+		segunda_2_2 [label="(2,2): 0" shape=box]
+		segunda_2_3 [label="(2,3): 0" shape=box]
+		segunda_2_4 [label="(2,4): 4" shape=box]
+		segunda_3_1 [label="(3,1): 3" shape=box]
+		segunda_3_2 [label="(3,2): 1" shape=box]
+		segunda_3_3 [label="(3,3): 0" shape=box]
+		segunda_3_4 [label="(3,4): 7" shape=box]
+		segunda_1_1 -> segunda_1_2
+		segunda_1_2 -> segunda_1_3
+		segunda_1_3 -> segunda_1_4
+		segunda_2_1 -> segunda_2_2
+		segunda_2_2 -> segunda_2_3
+		segunda_2_3 -> segunda_2_4
+		segunda_3_1 -> segunda_3_2
+		segunda_3_2 -> segunda_3_3
+		segunda_3_3 -> segunda_3_4
+	}
+	subgraph cluster_tercera {
+		label=tercera
+		color=lightgrey style=filled
+		tercera_1_1 [label="(1,1): 1" shape=box]
+		tercera_1_2 [label="(1,2): 4" shape=box]
+		tercera_1_3 [label="(1,3): 2" shape=box]
+		tercera_1_4 [label="(1,4): 3" shape=box]
+		tercera_2_1 [label="(2,1): 0" shape=box]
+		tercera_2_2 [label="(2,2): 5" shape=box]
+		tercera_2_3 [label="(2,3): 0" shape=box]
+		tercera_2_4 [label="(2,4): 7" shape=box]
+		tercera_3_1 [label="(3,1): 5" shape=box]
+		tercera_3_2 [label="(3,2): 0" shape=box]
+		tercera_3_3 [label="(3,3): 3" shape=box]
+		tercera_3_4 [label="(3,4): 5" shape=box]
+		tercera_4_1 [label="(4,1): 2" shape=box]
+		tercera_4_2 [label="(4,2): 1" shape=box]
+		tercera_4_3 [label="(4,3): 5" shape=box]
+		tercera_4_4 [label="(4,4): 6" shape=box]
+		tercera_5_1 [label="(5,1): 0" shape=box]
+		tercera_5_2 [label="(5,2): 2" shape=box]
+		tercera_5_3 [label="(5,3): 0" shape=box]
+		tercera_5_4 [label="(5,4): 1" shape=box]
+		tercera_1_1 -> tercera_1_2
+		tercera_1_2 -> tercera_1_3
+		tercera_1_3 -> tercera_1_4
+		tercera_2_1 -> tercera_2_2
+		tercera_2_2 -> tercera_2_3
+		tercera_2_3 -> tercera_2_4
+		tercera_3_1 -> tercera_3_2
+		tercera_3_2 -> tercera_3_3
+		tercera_3_3 -> tercera_3_4
+		tercera_4_1 -> tercera_4_2
+		tercera_4_2 -> tercera_4_3
+		tercera_4_3 -> tercera_4_4
+		tercera_5_1 -> tercera_5_2
+		tercera_5_2 -> tercera_5_3
+		tercera_5_3 -> tercera_5_4
+	}
+}
